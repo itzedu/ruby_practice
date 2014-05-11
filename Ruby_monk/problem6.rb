@@ -1,0 +1,3 @@
+# Let us say you are trying to recruit team-members for your new startup! Given a candidate, you need an expression that will tell you whether they fit into certain types. This is how a candidate object would look:
+
+is_an_experienced_programmer = (candidate.years_of_experience >= 2 || candidate.github_points >= 500) && candidate.age > 15 && candidate.applied_recently? == false && candidate.languages_worked_with.include?("Ruby")
